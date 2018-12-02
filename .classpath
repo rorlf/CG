@@ -10,5 +10,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/documentos/Rorlf/javaopencv/opencv-343.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rorlf/eclipse-workspace/java-pdi/lib/ij.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

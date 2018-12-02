@@ -102,7 +102,7 @@ public class CG_Controller
 		Imgproc.threshold(image, image,109, 255, Imgproc.THRESH_TOZERO);
 		
 
-	 Core.bitwise_or(image, image2, image);
+	 Core.bitwise_or(image, image, image);
 		
 		
 	
