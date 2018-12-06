@@ -1,4 +1,4 @@
-package it.polito.teaching.cv;
+package imageJ;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
@@ -44,7 +44,7 @@ public class HelloCV
 //		
 //
 //		Core.inRange(image, new Scalar(0,0,0), new Scalar(0,0,255), image);
-	 Core.bitwise_or(image2, image2, image);
+	 Core.bitwise_or(image, image2, image);
 //		Imgproc.threshold(image, image,20, 255, Imgproc.THRESH_BINARY_INV);
 //		Imgproc.threshold(image, image,255, 255, Imgproc.THRESH_TRIANGLE);
 //		Imgproc.threshold(image, image,255, 255, Imgproc.THRESH_TRUNC);
